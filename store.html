@@ -1,0 +1,158 @@
+<div class="ParallaxContainer" id="projects">
+    <div class="ContentContainer">
+        <div class="Content">
+            <h1 id="skills-title">Skills</h1>
+            <div id="skills-containers">
+
+                <div id="courses" class="skills">
+                    <h2>Significant Coursework</h2>
+                    <ul>
+                        <li>EECS 268: Programming II</li>
+                        <li>MATH 725: Graph Theory</li>
+                        <li>FIN 311: Honors Finance</li>
+                        <li>CHEM 330: Organic Chemistry</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+                <div id="programming" class="skills">
+                    <h2>Programming Languages</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+
+                <div id="other" class="skills">
+                    <h2>Other Skills</h2>
+                    <ul>
+                        <li>Autodesk Inventor</li>
+                        <li>Autodesk AutoCAD</li>
+                        <li>Inkscape</li>
+                        <li>Microsoft Excel</li>
+                        <li>Spanish</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="about-contents">
+    <div id="about-text">
+        <h2>Who am I?</h2>
+        <h2>Zak Kulphongpatana</h2>
+        <h3>
+            University of Kansas Engineering Student <br>
+            B.S. Computer Science | B.S. Mathematics <br>
+            SELF Engineering Fellow | Chancellor's  Club Scholar | Honors Program <br>
+            Designer | Web Developer | Programmer <br>
+            <br>
+            I am interested in quantitative finance, computational biomedicine, machine learning, and personalized education.
+            On the side, I do freelance graphic design, play the piano, organize coding programs, and many other less marketable skills.
+            <br><br>
+            “I have never let my schooling interfere with my education.”<br>Mark Twain
+        </h3>
+    </div>
+    <div id="about-image">
+        <img id="about-profile" src="profile.jpg" alt="Zak Kulphongpatana">
+    </div>
+</div>
+
+#about{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#about-contents{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about-text{
+    width: 45%;
+    padding-left: 2.5%;
+}
+
+#about-image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-profile{
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+#about h2{
+    margin: 0;
+    font-size: 3em;
+    padding: 20px 0px;
+}
+
+#about h3{
+    margin: 0;
+    font-size: 1.5em;
+    padding: 10px 0px;
+}
+
+.skills{
+    width: calc(100vw/3);
+    margin: 40px;
+    height: 70vh;
+    border: 2px solid rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+
+}
+
+.skills ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+ .skills li{
+    padding: 10px;
+ }
+
+ #skills-title{
+     text-align: center;
+     position: relative;
+     top: 10px;
+     overflow-y: scroll;
+ }
+
+ #skills-containers{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100vw;
+     overflow-y: scroll;
+
+ }
