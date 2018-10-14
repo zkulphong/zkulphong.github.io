@@ -27,7 +27,7 @@ $(document).ready(function(){
         $("#top-title").fadeOut("slow");
     }, 6 * timer);
     setTimeout(function(){
-        $("#top-title").text("entrepreneur");
+        $("#top-title").text("aspiring entrepreneur");
         $("#top-title").fadeIn("slow");
     },7 * timer);
     setTimeout(function(){
@@ -70,9 +70,7 @@ $(document).ready(function(){
 
     $(".down-button").on('click', function(event){
         var viewHeight = $('#MainContainer').height();
-        var position = '+=' + viewHeight + 'px'
-        console.log(position);
-        $('#MainContainer').animate({scrollTop: position}, 800);
+        $('#MainContainer').animate({scrollTop: viewHeight * 1}, 800);
     });
 
     $("#home-nav").on('click', function(event){
@@ -106,10 +104,3 @@ $(document).ready(function(){
 });
 
 
-function mediaQuery(x) {
-    if (x.matches) { // If media query matches
-        //document.body.style.backgroundColor = "yellow";
-    } else {
-        //document.body.style.backgroundColor = "pink";
-    }
-}

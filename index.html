@@ -1,179 +1,271 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>zkulphong</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1; maximum-scale=1.0; minimum-scale=1.0; user-scalable=yes;">
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <link rel="shortcut icon" type="image/x-icon" href="img/zk_favicon.ico" />
-    </head>
-    <body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="index.js"></script>
 
-        <div id="nav-bar">
-            <ul id="nav-items">
-                <li class="nav-item" id="home-nav"><a>Home</a></li>
-                <li class="nav-item" id="about-nav"><a>About</a></li>
-                <li class="nav-item" id="skills-nav"><a>Skills</a></li>
-                <li class="nav-item" id="projects-nav"><a>Projects</a></li>
-                <li class="nav-item" id="contact-nav"><a>Contact</a></li>
-            </ul>
+<head>
+    <title>zkulphong</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1; maximum-scale=1.0; minimum-scale=1.0; user-scalable=yes;">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="img/zk_favicon.ico" />
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+    <div id="nav-bar">
+        <ul id="nav-items">
+            <li class="nav-item" id="home-nav"><a>Home</a></li>
+            <li class="nav-item" id="about-nav"><a>About</a></li>
+            <li class="nav-item" id="skills-nav"><a>Skills</a></li>
+            <li class="nav-item" id="projects-nav"><a>Projects</a></li>
+            <li class="nav-item" id="contact-nav"><a>Contact</a></li>
+        </ul>
+    </div>
+    <div id="MainContainer">
+        <div class="ContentContainer" id="top">
+            <div class="Content" id="top-content">
+                <h1 id="top-title">Zak Kulphongpatana</h1>
+                <h3 id="top-text">things zak is doing or has done</h3>
+                <div class="down-button">
+                    <section class="down-arrow">
+                        <a class="button"><span></span></a>
+                    </section>
+                </div>
+            </div>
         </div>
-        <div id="MainContainer">
-            <div class="ContentContainer" id="top">
-                <div class="Content" id="top-content">
-                    <h1 id="top-title">Zak Kulphongpatana</h1>
-                    <h3 id="top-text">things zak is doing or has done</h3>
-                    <div class="down-button">
-                        <section class="down-arrow">
-                          <a class="button"><span></span></a>
-                        </section>
-                    </div>
+
+        <div class="ParallaxContainer" id="about">
+            <div id="about-contents">
+                <div id="about-text">
+                    <h2 id="about-name">Zak Kulphongpatana</h2>
+                    <h3>
+                        University of Kansas SELF Engineering Fellow<br>
+                        B.S. Computer Science | B.S. Mathematics<br>
+                        <br>
+                        I am an aspiring tech entrepreneur interested in applications of data engineering to education,
+                        finance, and biomedicine.
+                        <br><br>
+                        “I have never let my schooling interfere with my education.” - Mark Twain
+                    </h3>
+                </div>
+                <div id="about-image">
+                    <img id="about-profile" src="img/profile.jpg" alt="Zak Kulphongpatana">
                 </div>
             </div>
 
-            <div class="ParallaxContainer" id="about">
-                <div id="about-contents">
-                    <div id="about-text">
-                        <h2 id="about-title">Who am I?</h2>
-                        <h2 id="about-name">Zak Kulphongpatana</h2>
-                        <h3>
-                            University of Kansas Engineering Student <br>
-                            B.S. Computer Science | B.S. Mathematics<br>
-                            SELF Engineering Fellow | Chancellor's  Club Scholar | Honors Program <br>
-                            Designer | Web Developer | Programmer <br>
-                            <br>
-                            I enjoy playing soccer and the piano, organizing coding outreach programs, and developing entrepreneurial projects.
-                            My interests are quantitative finance, computational biomedicine, machine learning, and personalized education to name a few.
-                            <br><br>
-                            “I have never let my schooling interfere with my education.”<br>Mark Twain
-                        </h3>
-                    </div>
-                    <div id="about-image">
-                        <img id="about-profile" src="img/profile.jpg" alt="Zak Kulphongpatana">
-                    </div>
-                </div>
+        </div>
 
+
+        <div class="ContentContainer" id="skill">
+            <div class="Content">
+                <p id="skills-text"><span class="bold">Coding: </span>Python; C++; HTML/CSS; Javascript && NodeJS;
+                    Dart && Flutter; <span class="bold">Coursework: </span>Graph Theory; Organic Chemistry;
+                    Linear Algebra; Software Engineering; <span class="bold">Other: </span>AutoCAD && Inventor;
+                    Inkscape; Excel; Latex; Spanish;</p>
             </div>
+        </div>
+
+        <div class="ParallaxContainer" id="projects">
+            <div class="ContentContainer" id="projects-content">
+                <div class="Content" id="project-blocks">
+                    <div class="project-column" id="column-1">
+                        <div class="block" id="project-title">
+                            <h1>Projects</h1>
+                        </div>
+
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/quantopian.png" class="proj-icon"></div>
+                            <h1 class="proj-title">Finance Venture</h1>
+                            <h2 class="proj-sub">Equity Partner</h2>
+                            <h3 class="proj-text black-links">Implementing quantitative trading strategies by
+                                developing software and mathematical models, and developing proprietary commercial
+                                products. I utilize a range of languages and tools such as Python, C#, and Quantopian
+                                to analyze data.</h3>
+                        </div>
 
 
-            <div class="ContentContainer" id="skill">
-                <div class="Content">
-                    <p id="skills-text"><span class="bold">Skills;</span> Python; C++; HTML5 && CSS3; Javascript && NodeJS; C#; AutoCAD && Inventor; Inkscape; Excel; Latex; Spanish; <br><span class="bold">Courses;</span> EECS 268->Programming II; MATH 725->Graph Theory; MATH 590->Linear Algebra; FIN 311->Finance; CHEM330->Organic Chemistry;</p>
-                </div>
-            </div>
+                        <div class="block project altProj">
+                            <div class="proj-image"><img src="img/hubX.png" class="proj-icon"></div>
+                            <h1 class="proj-title">hub()</h1>
+                            <h2 class="proj-sub">Co-Founder and Strategy Director</h2>
+                            <h3 class="proj-text">We are student organization at the University of Kansas
+                                dedicated to teaching problem-solving skills to
+                                local middle school students through the Python programming language. We have
+                                launched programs in Olathe and Lawrence.
+                                <a class="weblink" href="https://www.hubkucoding.com">Website</a></h3>
+                        </div>
 
-            <div class="ParallaxContainer" id="projects">
-                <div class="ContentContainer" id="projects-content">
-                    <div class="Content" id="project-blocks">
-                        <div class="project-column" id="column-1">
-                            <div class="block" id="project-title">
-                                <h1>Projects</h1>
-                            </div>
-                            <div class="block project" id="project2">
-                                <div class="proj-image"><img src="img/hubX.png" class="proj-icon"></div>
-                                <h1 class="proj-title">hubX</h1>
-                                <h2 class="proj-sub">Co-Founder</h2>
-                                <h3 class="proj-text black-links" >Co-founded with Nolan Blankenau, we are a pre-funding startup developing a web-based coding education platform for secondary education students. If you are interested in our project, advice, or support please contact me at the email address at the bottom of the web page. More information can be
-                                found at our website, <a class="weblink" href="www.hubxed.com">hubX Education</a>.</h3>
-                            </div>
-                            <div class="block project" id="project4">
-                                <div class="proj-image"><img src="img/hub().png" class="proj-icon"></div>
-                                <h1 class="proj-title">hub()</h1>
-                                <h2 class="proj-sub">Co-Founder</h2>
-                                <h3 class="proj-text black-links">We are student organization at the University of Kansas dedicated to teaching problem-solving skills to
-                                local middle school students through the Python programming language. <!--I lead the team in strategy and university-relations. If you are interested in getting involved, please contact me at the email address at the bottom of the page. More information can be
-                                found at our website, <a class="weblink" href="need to get a website">hub()</a>.</h3>-->
-                            </div>
-                            <div class="block project" id="project6">
-                                <div class="proj-image"><img src="img/minnehacks.png" class="proj-icon"></div>
-                                <h1 class="proj-title">inChain</h1>
-                                <h2 class="proj-sub">Minnehack</h2>
-                                <h3 class="proj-text black-links">Blockchain for Medical Records. Web app that allows patients to track appointment history, illnesses, and other information by blocks.
-                                App built using Google Cloud Platform and Python. I worked on the adding on the front-end HTML and CSS, and class structures for the blockchain. <a href="https://github.com/zkulphong/inChain2" class="Github"><i class="fab fa-github"></i></a><a href="need to find Devpost" class="Devpost"><img src="" class="devpost-icon"></a></h3>
-                            </div>
-                            <div class="block project altProj" id="project8">
-                                <div class="proj-image"><img src="img/needle.png" class="proj-web"></div>
-                                <h1 class="proj-title">Needle</h1>
-                                <h2 class="proj-sub">HackKState</h2>
-                                <h3 class="proj-text white-links">Rotten Tomatoes for Spotify. Upvote and downvote your friends' Spotify playlists
-                                and the songs in them. Web application developed using Flask, Python, SQL, and HTML/CSS.
-                                I developed the Python backend using the Spotipy library. <a href="https://github.com/zkulphong/needle" class="Github"><i class="fab fa-github"></i></a>
+
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/KU.png" class="proj-icon"></div>
+                            <h1 class="proj-title">University of Kansas: Bioengineering</h1>
+                            <h2 class="proj-sub">Undergraduate Researcher</h2>
+                            <h3 class="proj-text black-links">Conducted cryogels research in the lab of Dr. Arghya Paul
+                                and Dr. Settimio Pacelli
+                                Characterized cryogels and performed extensive literature searches.</h3>
+                        </div>
+
+
+
+
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/flutter.png" class="proj-icon"></div>
+                            <h1 class="proj-title">Happy Hour</h1>
+                            <h2 class="proj-sub">Hack Midwest</h2>
+                            <h3 class="proj-text white-links">Happy Hour web scraper app built using Flutter and a
+                                Flask backend. I built the scraper
+                                to gather unstructured data from sites.
+                                <!--<a href="https://github.com/theriley106/capital-one-vocal-identification"
+                                    class="Github"><i class="fab fa-github"></i></a>-->
+                            </h3>
+                        </div>
+
+
+
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/minnehacks.png" class="proj-icon"></div>
+                            <h1 class="proj-title">inChain</h1>
+                            <h2 class="proj-sub">Minnehack</h2>
+                            <h3 class="proj-text black-links">Blockchain for Medical Records. Web app that allows
+                                patients to track appointment history, illnesses, and other information by blocks.
+                                App built using Google Cloud Platform and Python. I worked on the adding on the
+                                front-end HTML and CSS, and class structures for the blockchain. <a href="https://github.com/zkulphong/inChain2"
+                                    class="Github"><i class="fab fa-github"></i></a><a href="need to find Devpost"
+                                    class="Devpost"><img src="" class="devpost-icon"></a></h3>
+                        </div>
+                        <div class="block project altProj">
+                            <div class="proj-image"><img src="img/needle.png" class="proj-web"></div>
+                            <h1 class="proj-title">Needle</h1>
+                            <h2 class="proj-sub">HackKState</h2>
+                            <h3 class="proj-text white-links">Rotten Tomatoes for Spotify. Upvote and downvote your
+                                friends' Spotify playlists
+                                and the songs in them. Web application developed using Flask, Python, SQL, and
+                                HTML/CSS.
+                                I developed the Python backend using the Spotipy library. <a href="https://github.com/zkulphong/needle"
+                                    class="Github"><i class="fab fa-github"></i></a>
                                 <a href="https://devpost.com/software/needle" class="Devpost"></a></h3>
-                            </div>
-                            <div class="block project" id="project10">
-                                <div class="proj-image"></div>
-                                <h1 class="proj-title">More Coming Soon!</h1>
-                                <h2 class="proj-sub"></h2>
-                                <h3 class="proj-text"></h3>
-                            </div>
                         </div>
-                        <div class="project-column" id="column-2">
-                            <div class="block project" id="project1">
-                                <div class="proj-image"><img src="img/quantopian.png" class="proj-icon"></div>
-                                <h1 class="proj-title">Finance Venture</h1>
-                                <h2 class="proj-sub">Equity Partner</h2>
-                                <h3 class="proj-text black-links">Implementing quantitative trading strategies by developing software and mathematical models, and developing proprietary commercial products. I utilize a range of languages and tools such as Python, C#, and Quantopian to analyze data.</h3>
-                            </div>
-                            <div class="block project altProj" id="project3">
-                                <div class="proj-image"><img src="img/capital-one.png" class="proj-web"></div>
-                                <h1 class="proj-title">C1SES: Hello World</h1>
-                                <h2 class="proj-sub">C1SES Hackathon</h2>
-                                <h3 class="proj-text white-links">Customer service web app that real-time translates audio between a customer and an agent. Real-time text is also provided to both parties.
-                                    NodeJS, Flask, Google Translate API, Google Audio-to-Text API, and Javascript Speech Recognition utilized. I worked in Javascript to stream Audio-to-Text to a server from the client and to the app. <a href="https://github.com/theriley106/capital-one-vocal-identification" class="Github"><i class="fab fa-github"></i></a>
-                                 </h3>
-                            </div>
-                            <div class="block project" id="project5">
-                                <div class="proj-image"><img src="img/capital-one-sfpd.png" class="proj-web"></div>
-                                <h1 class="proj-title">C1SES: SFPD</h1>
-                                <h2 class="proj-sub">C1SES Application</h2>
-                                <h3 class="proj-text black-links">Web app that analyzes, displays, and predicts police dispatches in San Francisco based on data provided by Capital One. I built the app using the Flask Framework and hosted it on Heroku.
-                                The website can be found at <a class="weblink" href="https://capitalonezkulphong.heroku-app.com">my Heroku app</a>. <a href="https://github.com/zkulphong/capitalone" class="Github"><i class="fab fa-github"></i></a></h3>
-                            </div>
-                            <div class="block project" id="project7">
-                                <div class="proj-image"><img src="img/better_way.png" class="proj-web"></div>
-                                <h1 class="proj-title">BetterWay</h1>
-                                <h2 class="proj-sub">KU SUA Hackathon</h2>
-                                <h3 class="proj-text black-links">Web and Android ridesharing app that connects college students needing
-                                                a ride home. Integrated Javascript, HTML/CSS, Firebase, EmailJS,
-                                                Google Maps API and GoNative. I worked on the Javascript backend integrating with Firebase and the Google Maps API. <a href="https://github.com/zkulphong/BetterWay" class="Github"><i class="fab fa-github"></i></a></h3>
-                            </div>
-                            <div class="block project" id="project9">
-                                <div class="proj-image"><img src="img/google-maps.png" class="proj-icon"></div>
-                                <h1 class="proj-title">Park Ranger</h1>
-                                <h2 class="proj-sub">KU Hacks</h2>
-                                <h3 class="proj-text black-links">Android app that connects allows users to form groups when visiting national parks so that they never lose each other, and so that they can contact a park ranger when in distress.
-                                I worked on the Google Maps API and get GPS data from devices. <!--<a href="need to find Github" class="Github"><i class="fab fa-github"></i></a><a href="need to find Devpost" class="Devpost"></a></h3>-->
-                            </div>
-                            <div class="block project" id="web-docs">
-                                <h2 id="web-text" class="black-links">Documentation for this website can be found at <a href="https://github.com/zkulphong/zkulphong.github.io" class="Github"><i class="fab fa-github"></i></a></h2>
-                            </div>
+
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/google-maps.png" class="proj-icon"></div>
+                            <h1 class="proj-title">Park Ranger</h1>
+                            <h2 class="proj-sub">KU Hacks</h2>
+                            <h3 class="proj-text black-links">Android app that connects allows users to form groups
+                                when visiting national parks so that they never lose each other, and so that they can
+                                contact a park ranger when in distress.
+                                I worked on the Google Maps API and get GPS data from devices.
+                                <!--<a href="need to find Github" class="Github"><i class="fab fa-github"></i></a><a href="need to find Devpost" class="Devpost"></a></h3>-->
                         </div>
+
                     </div>
-                </div>
-            </div>
+                    <div class="project-column" id="column-2">
+                        <div class="block project">
+                            <div class="proj-image"><img src="" class="proj-icon"></div>
+                            <h1 class="proj-title">Coming Soon!</h1>
+                            <h2 class="proj-sub">Incoming Intern</h2>
+                            <h3 class="proj-text black-links"></h3>
+                        </div>
 
 
-            <div class="ContentContainer" id="contact">
-                <div class="Content" id="contact-info">
-                    <div id="email">
-                        <h1 id="email-text">Want to get in touch? Shoot me an email!</h1>
-                        <h2 id="email-address" class="white-links"><a class="emaillink" href="mailto::zkulphong@gmail.com"><i class="fas fa-envelope-square"></i> zkulphong@gmail.com</a></h2>
-                    </div>
-                    <div id="social-media">
-                        <ul id="social-media-icons">
-                            <li class="social white-links" id="Linkedin"><a href="https://www.linkedin.com/in/zkulphong/"><i class="fab fa-linkedin"></i></a></li>
-                            <li class="social white-links" id="Instagram"><a href="https://www.instagram.com/kulphongpotato/"><i class="fab fa-instagram"></i></a></li>
-                            <li class="social white-links" id="Facebook"><a href="https://www.facebook.com/zkulphong"><i class="fab fa-facebook"></i></a></li>
-                            <li class="social white-links" id="Github"><a href="https://github.com/zkulphong"><i class="fab fa-github"></i></a></li>
-                        </ul>
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/KCUVP.png" class="proj-icon"></div>
+                            <h1 class="proj-title">Kansas City University Venture Program</h1>
+                            <h2 class="proj-sub">Intern</h2>
+                            <h3 class="proj-text">Learn about the private finance space, sponsored by Royal Street
+                                Ventures and the Kauffman Foundation
+                                Develop knowledge of angel investing, venture capital, growth equity, and private
+                                equity through hands-on work with startups and other companies.
+                                <a class="weblink" href="https://www.kcuvp.org/">Website</a></h3>
+                        </div>
+
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/lexiconPros.png" class="proj-icon"></div>
+                            <h1 class="proj-title">Lexicon Pros</h1>
+                            <h2 class="proj-sub">App Developer</h2>
+                            <h3 class="proj-text black-links">Developing a cross-platform mobile app using Flutter,
+                                Dart, and Firebase
+                                for a medical language interpretation company in Kansas City.
+                            </h3>
+                        </div>
+
+
+
+
+                        <div class="block project altProj">
+                            <div class="proj-image"><img src="img/capital-one.png" class="proj-web"></div>
+                            <h1 class="proj-title">C1SES: Hello World</h1>
+                            <h2 class="proj-sub">C1SES Hackathon</h2>
+                            <h3 class="proj-text white-links">Customer service web app that real-time translates audio
+                                between a customer and an agent. Real-time text is also provided to both parties.
+                                NodeJS, Flask, Google Translate API, Google Audio-to-Text API, and Javascript Speech
+                                Recognition utilized. I worked in Javascript to stream Audio-to-Text to a server from
+                                the client and to the app. <a href="https://github.com/theriley106/capital-one-vocal-identification"
+                                    class="Github"><i class="fab fa-github"></i></a>
+                            </h3>
+                        </div>
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/capital-one-sfpd.png" class="proj-web"></div>
+                            <h1 class="proj-title">C1SES: SFPD</h1>
+                            <h2 class="proj-sub">C1SES Application</h2>
+                            <h3 class="proj-text black-links">Web app that analyzes, displays, and predicts police
+                                dispatches in San Francisco based on data provided by Capital One. I built the app
+                                using the Flask Framework and hosted it on Heroku.
+                                The website can be found at <a class="weblink" href="https://capitalonezkulphong.heroku-app.com">my
+                                    Heroku app</a>. <a href="https://github.com/zkulphong/capitalone" class="Github"><i
+                                        class="fab fa-github"></i></a></h3>
+                        </div>
+                        <div class="block project">
+                            <div class="proj-image"><img src="img/better_way.png" class="proj-web"></div>
+                            <h1 class="proj-title">BetterWay</h1>
+                            <h2 class="proj-sub">KU SUA Hackathon</h2>
+                            <h3 class="proj-text black-links">Web and Android ridesharing app that connects college
+                                students needing
+                                a ride home. Integrated Javascript, HTML/CSS, Firebase, EmailJS,
+                                Google Maps API and GoNative. I worked on the Javascript backend integrating with
+                                Firebase and the Google Maps API. <a href="https://github.com/zkulphong/BetterWay"
+                                    class="Github"><i class="fab fa-github"></i></a></h3>
+                        </div>
+
+                        <div class="block project">
+                            <h1 class="proj-title">More to Come!</h1>
+                        </div>
+
+                        <div class="block project" id="web-docs">
+                            <h2 id="web-text" class="black-links">Documentation for this website can be found at <a
+                                    href="need to find Github" class="Github"><i class="fab fa-github"></i></a></h2>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </body>
- </html>
+
+        <div class="ContentContainer" id="contact">
+            <div class="Content" id="contact-info">
+                <div id="email">
+                    <h1 id="email-text">Want to get in touch? Shoot me an email!</h1>
+                    <h2 id="email-address" class="white-links"><a class="emaillink" href="mailto::zkulphong@gmail.com"><i
+                                class="fas fa-envelope-square"></i> zkulphong@gmail.com</a></h2>
+                </div>
+                <div id="social-media">
+                    <ul id="social-media-icons">
+                        <li class="social white-links" id="Linkedin"><a href="https://www.linkedin.com/in/zkulphong/"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <li class="social white-links" id="Instagram"><a href="https://www.instagram.com/kulphongpotato/"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li class="social white-links" id="Facebook"><a href="https://www.facebook.com/zkulphong"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li class="social white-links" id="Github"><a href="https://github.com/zkulphong"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
