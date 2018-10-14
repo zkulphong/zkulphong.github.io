@@ -338,8 +338,8 @@ a:link:hover{
     color: black;
     display: flex;
     flex-direction: column;
-    height: 900vh;
-    padding-top: 300vh;
+    height: 1000vh;
+    padding-top: 600vh;
  }
 
 #projects-content{
